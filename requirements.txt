@@ -1,0 +1,7 @@
+# Dependencias principales del proyecto
+openai-whisper==20250625
+torch>=2.0.0
+torchaudio>=2.0.0
+llama-cpp-python>=0.3.35
+gTTS>=2.5.0
+
