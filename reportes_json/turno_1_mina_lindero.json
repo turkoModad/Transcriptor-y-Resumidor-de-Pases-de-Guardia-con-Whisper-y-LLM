@@ -1,0 +1,22 @@
+{
+    "Tareas_Pendientes": [
+        "Coordinar con el taller de mantenimiento mecánico central el envío inmediato del camión lubricador y la grúa de auxilio para remolcar o intervenir en terreno el camión 777 número 4.",
+        "El equipo de mantenimiento electromecánico debe purgar y cambiar el termostato y líquido. Refrigerante de la pala hidráulica Comatzu PC-2000 para rehabilitar la extracción en el frente. Norte.",
+        "La entrega de tres pallets de elementos de protección personal: barbijos con filtro para polvo minero, guantes térmicos de nitrilo para baja temperatura y lentes con tratamiento antibao.",
+        "El operador de la regadora de caminos debe aplicar bis chofita o salmuera estabilizadora en los caminos 2 y 3 para mitigar la polución de polvo en suspensión una vez que el sol empiece a calentar el suelo.",
+        "Registrar la verificación de los tanques de oxígeno portátiles en los vehículos de rescate de la brigada de emergencia."
+    ],
+    "Riesgos_Reportados": [
+        "Pérdida considerable de aceite hidráulico en el eje trasero del camión Caterpillar 777 Nº 4.",
+        "Recalentamiento en el circuito de refrigeración de la pala hidráulica Comatsu PC2000 debido a obstrucción provocada por acumulación de sedimentos y congelamiento parcial de mangueras.",
+        "Neumático delantero con baja presión en la motoniveladora 140K.",
+        "Viento blanco y ráfagas con velocidades que podrían superar los 85 km por hora, reduciendo la visibilidad a menos de 15 metros.",
+        "Desprendimiento de pequeñas rocas en la cresta del talud sur del tajo abierto.",
+        "Escarcha sobre las escaleras metálicas de acceso al área de trituración primaria, generando riesgo de caídas."
+    ],
+    "Maquinaria_Afectada": [
+        "Camión Caterpillar 777 Nº 4 con pérdida considerable de aceite hidráulico en el eje trasero.",
+        "Pala hidráulica Comatsu PC2000 con recalentamiento en el circuito de refrigeración.",
+        "Motoniveladora 140K con neumático delantero con baja presión."
+    ]
+}

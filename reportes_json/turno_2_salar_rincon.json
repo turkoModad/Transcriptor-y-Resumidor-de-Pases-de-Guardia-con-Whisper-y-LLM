@@ -1,0 +1,19 @@
+{
+    "Tareas_Pendientes": [
+        "La cuadrilla de electromecánicos debe acudir con instrumental de medición al pozo B103 para evaluar la resistencia de aislamiento del motor sumergible y verificar el fusible del tablero D.",
+        "El equipo de instrumentación y control debe desmontar la válvula V42. Lavarla con agua caliente a presión para remover incrustaciones salinas y lubricar el actuador.",
+        "Personal de medio ambiente y seguridad patrimonial debe proceder con la neutralización controlada. Con cala apagada del charco ha sido retenido en la batea del tanque TK05 y registrar la disposición de los residuos en el libro de actas ambientales.",
+        "Queda pendiente recepcionar el camión cisterna de gas líquuo que llega desde la ciudad de Salta. Cerca de las 10 de la mañana para recargar los depósitos de calefacción de los módulos. Habitacionales del campamento base, les deseamos un turno seguro y muy productivo."
+    ],
+    "Riesgos_Reportados": [
+        "Pequeño derrame de ácido clorhídrico concentrado en la bandeja de contención secundaria del tanque pulmón TK05, con vapores ácidos irritantes en el ambiente.",
+        "Helada severa con temperaturas de 14 grados bajo cero en la plataforma D, con capas de hielo negro sobre las pasarelas metálicas y plataformas elevadas de los espesadores.",
+        "Riesgo de deshidratación extrema y fatiga por hipoxia propia de los 3.900 metros de altura.",
+        "Operadores deben trabajar con arnés de seguridad con doble cabo de vida anclado a las líneas de vida en las piletas periféricas sin radio VHF en canal 2."
+    ],
+    "Maquinaria_Afectada": [
+        "Bomba centrífuga sumergible B-103 con corte imprevisto por sobrecarga eléctrica en el variador de frecuencia, con alarmas de alta temperatura en los bobinados.",
+        "Válvula automática neumática V42 de alimentación de agua de proceso con cristalización de sales en el bástago, provocando una leve fluctuación en el caudal de dilución.",
+        "Autoelevador todoterreno Manitou número 3 con pinchadura en la rueda trasera izquierda y rotura de una manguera de elevación hidráulica, quedando temporalmente inoperativo en el galpón de reactivos."
+    ]
+}
