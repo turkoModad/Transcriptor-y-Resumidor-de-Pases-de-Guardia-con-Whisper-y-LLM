@@ -36,6 +36,7 @@ El sistema toma un audio en español (grabado o sintético), lo transcribe utili
 * [Modelos Utilizados](#modelos-utilizados)
 * [Guía de Uso Paso a Paso](#guía-de-uso-paso-a-paso)
 * [Ejemplo de Resultado Generado](#ejemplo-de-resultado-generado)
+* [Evaluación y Métricas de Calidad](#evaluación-y-métricas-de-calidad)
 * [Notas para Futuras Mejoras](#notas-para-futuras-mejoras)
 * [Autor](#autor)
 
@@ -69,6 +70,10 @@ resumen-reuniones/
 ├── generador_audio/              # Carpeta para síntesis de voz
 │   └── generador.py              # Función para crear MP3 desde texto con gTTS
 │
+├── evaluacion/                   # Carpeta de métricas y auditoría de calidad
+│   ├── metricas.py               # Algoritmo de normalización y cálculo de WER
+│   └── juez_llm.py               # Lógica de auditoría semántica con Phi-4
+│
 ├── textos_reuniones/             # Guiones base sobre minería en Salta
 │   ├── turno_1_mina_lindero.txt
 │   ├── turno_2_salar_rincon.txt
@@ -78,6 +83,10 @@ resumen-reuniones/
 │   ├── turno_1_mina_lindero.mp3
 │   ├── turno_2_salar_rincon.mp3
 │   └── turno_3_planta_arizaro.mp3
+│
+├── reportes_esperados/           # Datos de referencia reales (Ground Truth)
+│   ├── turno_1_mina_lindero.json
+│   └── ...
 │
 ├── modelo_whisper/               # Ubicación del modelo Whisper local
 ├── modelos/                      # Ubicación del modelo LLM local
@@ -91,8 +100,14 @@ resumen-reuniones/
 │   ├── turno_1_mina_lindero.json
 │   └── ...
 │
+├── resultados_evaluacion/        # Informes generados de calidad y métricas
+│   ├── reporte_evaluacion.txt    # Informe de precisión de Whisper
+│   └── auditoria_reportes_llm.txt# Informe de auditoría con Phi-4
+│
 ├── crear_audios_sinteticos.py    # Script ejecutable para generar los audios
 ├── procesar_reuniones.py         # Script ejecutable principal 
+├── evaluar_transcripciones.py    # Script ejecutable para evaluar Whisper (WER)
+├── evaluar_reportes.py           # Script ejecutable para auditar reportes con LLM
 ├── requirements.txt              # Dependencias del proyecto
 └── README.md                     
 ```
@@ -177,6 +192,45 @@ Al finalizar el análisis, obtendrás en pantalla y guardado en `reportes_json/`
   ]
 }
 ```
+
+---
+
+## Evaluación y Métricas de Calidad
+
+El proyecto incluye un sistema dual de evaluación independiente para medir con rigor técnico tanto el desempeño de la transcripción de audio como la precisión en la extracción de los reportes.
+
+### 1. Evaluación de Whisper (WER)
+
+Para medir la fidelidad de Whisper, se compara el texto sintético original (`textos_reuniones/`) contra la transcripción generada (`transcripciones/`).
+
+* **Métrica utilizada:** Word Error Rate (WER) basado en la distancia de Levenshtein a nivel de palabras tras normalización de texto (eliminación de signos de puntuación, mayúsculas y espacios sobrantes).
+* **Ejecución:**
+  ```bash
+  python evaluar_transcripciones.py
+  ```
+* **Resultados obtenidos:**
+  - `turno_1_mina_lindero.txt`: Precisión 92.99% (WER: 7.01%)
+  - `turno_2_salar_rincon.txt`: Precisión 90.88% (WER: 9.12%)
+  - `turno_3_planta_arizaro.txt`: Precisión 94.24% (WER: 5.76%)
+  - **Tasa de error promedio (WER):** 7.30%
+  - **Precisión promedio de Whisper:** 92.70%
+* El reporte detallado se guarda automáticamente en `resultados_evaluacion/reporte_evaluacion.txt`.
+
+### 2. Evaluación de Phi-4 (Auditoría semántica con LLM-as-a-Judge)
+
+Para medir la calidad de extracción de los resúmenes, se utiliza una auditoría semántica donde el propio modelo local Phi-4 actúa como juez independiente, comparando los reportes extraídos (`reportes_json/`) contra los reportes esperados de referencia (`reportes_esperados/`).
+
+* **Criterios evaluados:** Tareas completas, riesgos y maquinarias, detección de omisiones críticas, verificación de alucinaciones y calificación numérica del 1 al 10.
+* **Ejecución:**
+  ```bash
+  python evaluar_reportes.py
+  ```
+* **Resultados obtenidos:**
+  - `turno_1_mina_lindero.json`: Calificación 10 / 10 (Extracción 100% fiel, sin omisiones ni alucinaciones)
+  - `turno_2_salar_rincon.json`: Calificación 7 / 10 (Fidelidad conceptual con variaciones fonéticas menores)
+  - `turno_3_planta_arizaro.json`: Calificación 9 / 10 (Extracción completa de tareas, riesgos y maquinarias)
+  - **Calificación promedio de Phi-4:** 8.67 / 10
+* El informe de auditoría se guarda automáticamente en `resultados_evaluacion/auditoria_reportes_llm.txt`.
 
 ---
 
