@@ -1,0 +1,26 @@
+Evaluación de la precisión de Whisper
+Detalle por archivo:
+
+Archivo: turno_1_mina_lindero.txt
+  - Palabras originales:     571
+  - Diferencias detectadas:  40
+  - Tasa de error (WER):     7.01%
+  - Precisión alcanzada:     92.99%
+##############################
+Archivo: turno_2_salar_rincon.txt
+  - Palabras originales:     570
+  - Diferencias detectadas:  52
+  - Tasa de error (WER):     9.12%
+  - Precisión alcanzada:     90.88%
+##############################
+Archivo: turno_3_planta_arizaro.txt
+  - Palabras originales:     538
+  - Diferencias detectadas:  31
+  - Tasa de error (WER):     5.76%
+  - Precisión alcanzada:     94.24%
+##############################
+
+Resumen general de calidad:
+Total de archivos evaluados:     3
+Tasa de error promedio (WER):    7.30%
+Precisión promedio de Whisper:   92.70%
