@@ -1,0 +1,19 @@
+{
+  "Tareas_Pendientes": [
+    "La brigada de mantenimiento de planta debe reemplazar los seis rodillos guía averiados en la cinta transportadora número seis y calibrar la tensión de la banda antes de reiniciar la alimentación al molino SAG.",
+    "El personal de la contratista de energía debe purgar el circuito de combustible del generador Caterpillar número dos y colocar la junta selladora nueva para dejarlo en standby.",
+    "Solicitar al pañol general la provisión urgente de una nueva estación portátil lavaojos para reinstalar en el depósito de reactivos químicos.",
+    "Coordinar con la operadora del Ferrocarril Belgrano Cargas la inspección de los diez vagones tolva con cal hidratada y planificar la descarga secuencial."
+  ],
+  "Riesgos_Reportados": [
+    "Banco de niebla muy densa y calzada de ripio resbaladiza por barro congelado en la bajada del abra de Muñano hacia San Antonio de los Cobres para el transporte de personal.",
+    "Zumbido anómalo y recalentamiento térmico detectado por termografía en bornes del seccionador número dos de la subestación transformadora (riesgo de arco eléctrico).",
+    "Rotura del precinto de la ducha de emergencia y lavaojos número cinco en el área de reactivos de flotación, impidiendo atención inmediata ante salpicaduras químicas."
+  ],
+  "Maquinaria_Afectada": [
+    "Generador diésel principal Caterpillar número dos (usina térmica): oscilaciones bruscas en frecuencia eléctrica y fuga de combustible en línea de retorno de inyectores.",
+    "Cinta transportadora número seis: detenida por sensor de desalineamiento lateral provocado por desgaste prematuro en rodillos guía.",
+    "Pala cargadora frontal Volvo L-250 (estación de carga ramal C-14): fuera de servicio por rotura en latiguillo del cilindro de volteo del balde y fuga de aceite hidráulico."
+  ]
+}
+

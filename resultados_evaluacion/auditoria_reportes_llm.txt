@@ -1,0 +1,96 @@
+Auditoría de reportes con LLM (Phi-4)
+Detalle por archivo:
+
+Archivo: turno_1_mina_lindero.json
+1. TAREAS PENDIENTES:
+   - Puntos capturados correctamente: Todos los puntos de las tareas pendientes, riesgos reportados y maquinaria afectada están presentes y son casi idénticos en significado.
+   - Puntos omitidos: Ninguno.
+   - Alucinaciones o invenciones: Ninguna.
+
+2. RIESGOS REPORTADOS:
+   - Puntos capturados correctamente: Todos los riesgos reportados están presentes y son casi idénticos en significado.
+   - Puntos omitidos: Ninguno.
+   - Alucinaciones o invenciones: Ninguna.
+
+3. MAQUINARIA_AFFECTADA:
+   - Puntos capturados correctamente: Todos los puntos de la maquinaria afectada están presentes y son casi idénticos en significado.
+   - Puntos omitidos: Ninguno.
+   - Alucinaciones o invenciones: Ninguna.
+
+CALIFICACIÓN FINAL: 10/10
+VEREDICTO: La extracción de la IA es casi perfectamente fiel al reporte esperado, capturando con precisión todas las tareas, riesgos y problemas de maquinaria.
+##############################
+Archivo: turno_2_salar_rincon.json
+1. TAREAS PENDIENTES:
+   - Puntos capturados correctamente:
+     - La cuadrilla de electromecánicos debe acudir con instrumental de medición al pozo B103 (error de ortografía en "B-103" y "tablero D" en lugar de "tablero de control").
+     - El equipo de instrumentación y control debe desmontar la válvula V42 (error de ortografía en "V-42" y "vástago").
+     - Personal de medio ambiente y seguridad patrimonial debe proceder con la neutralización controlada (error de ortografía en "cal apagada" y "batea del tanque TK05" en lugar de "batina del tanque TK-05").
+     - Queda pendiente recepcionar el camión cisterna de gas líquuo (error de ortografía en "licuado" y "calefacción de los módulos" en lugar de "calefacción de los módulos habitacionales del campamento").
+   - Puntos omitidos (si los hay):
+   - Puntos omitidos (si los hay):
+   - Alucinaciones o invenciones (si las hay):
+
+2. RIESGOS REPORTADOS:
+   - Puntos capturados correctamente:
+     - Pequeño derrame de ácido clorhídrico concentrado en la bandeja de contención secundaria del tanque pulmón TK05 (error de ortografía en "pulmón" y "bandeja de contención secundaria" en lugar de "bandeja de contención secundaria del tanque pulmón").
+     - Helada severa con temperaturas de 14 grados bajo cero en la plataforma D (error de ortografía en "plataforma D" en lugar de "plataforma de pozos").
+     - Riesgo de deshidratación extrema y fatiga por hipoxia (error de ortografía en "hipoxia" y "3.900 metros" en lugar de "3.900 metros de altura").
+     - Operadores deben trabajar con arnés de seguridad con doble cabo de vida anclado a las líneas de vida (error de ortografía en "radio VHF en canal 2" en lugar de "sin radio VHF").
+   - Puntos omitidos (si los hay):
+   - Puntos omitidos (si los hay):
+   - Alucinaciones o invenciones (si las hay):
+
+3. MAQUINARIA_AFFECTADA:
+   - Puntos capturados correctamente:
+     - Bomba centrífuga sumergible B-103 con corte imprevisto por sobrecarga eléctrica (error de ortografía en "B-103" y "variador de frecuencia" en lugar de "variador de frecuencia").
+     - Válvula automática neumática V42 de alimentación de agua de proceso con cristalización de sales en el bástago (error de ortografía en "V-42" y "vástago").
+     - Autoelevador todoterreno Manitou número 3 con pinchadura en la rueda trasera izquierda y rotura de una manguera de elevación hidráulica (error de ortografía en "Manitou número 3" y "galpón de reactivos" en lugar de "galpón de reactivos").
+   - Puntos omitidos (si los hay):
+   - Puntos omitidos (si los hay):
+   - Alucinaciones o invenciones (si las hay):
+
+CALIFICACIÓN FINAL: 7/10
+VEREDICTO: La extracción de la IA es generalmente precisa, capturando la esencia de las tareas, riesgos y problemas de maquinaria, aunque hay errores ortográficos y algunos cambios en la formulación que afectan la precisión. La fidelidad general es buena, pero no perfecta.
+##############################
+Archivo: turno_3_planta_arizaro.json
+1. TAREAS PENDIENTES:
+   - Puntos capturados correctamente:
+     - Reemplazo de rodillos guía en la cinta transportadora número 6
+     - Calibración de la tensión de la lavanda en la cinta transportadora número 6
+     - Purgado del circuito de combustible del generador Caterpillar número 2
+     - Colocación de la junta selladora nueva en el generador Caterpillar número 2
+     - Solicitud de una nueva estación portátil lavaojos para el depósito de reactivos químicos
+     - Inspección de los 10 vagones Tolva con cal hidratada y planificación de su descarga secuencial
+   - Puntos omitidos (si los hay):
+     - No hay puntos omitidos.
+   - Alucinaciones o invenciones (si las hay):
+     - No hay alucinaciones o invenciones.
+
+2. RIESGOS REPORTADOS:
+   - Puntos capturados correctamente:
+     - Banco de niebla muy denso y baja presión barométrica en la bajada del Abra de Muñano
+     - Zumbido anómalo y recalentamiento térmico en el seccionador número 2
+     - Rotura del precinto de la ducha de emergencia y lavaojos número 5
+   - Puntos omitidos (si los hay):
+     - No hay puntos omitidos.
+   - Alucinaciones o invenciones (si las hay):
+     - No hay alucinaciones o invenciones.
+
+3. MAQUINARIA_AFFECTADA:
+   - Puntos capturados correctamente:
+     - Generador Caterpillar número 2 con oscilaciones bruscas en la frecuencia eléctrica y fuga de combustible
+     - Cinta transportadora número 6 con accionamiento del sensor de desalineamiento lateral
+     - Pala cargadora Volvo L250 con rotura en el latiguillo del cilindro de volteo del balde
+   - Puntos omitidos (si los hay):
+     - No hay puntos omitidos.
+   - Alucinaciones o invenciones (si las hay):
+     - No hay alucinaciones o invenciones.
+
+CALIFICACIÓN FINAL: 9/10
+VEREDICTO: La extracción de la IA es altamente fiel al reporte esperado, capturando con precisión todas las tareas pendientes, riesgos reportados y maquinaria afectada, con solo una leve omisión en la especificación de "calibrar la tensión de la banda" en lugar de "lavanda".
+##############################
+
+Resumen general de calidad:
+Total de archivos evaluados:     3
+Calificación promedio de Phi-4:  8.67 / 10

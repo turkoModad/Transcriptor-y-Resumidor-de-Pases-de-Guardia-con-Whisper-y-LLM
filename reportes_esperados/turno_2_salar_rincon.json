@@ -1,0 +1,19 @@
+{
+  "Tareas_Pendientes": [
+    "La cuadrilla de electromecánicos debe acudir al pozo B-103 para evaluar la resistencia de aislamiento del motor sumergible y verificar el fusible del tablero de control.",
+    "El equipo de instrumentación y control debe desmontar la válvula V-42, lavarla con agua caliente a presión para remover incrustaciones salinas y lubricar el actuador neumático.",
+    "Personal de medio ambiente y seguridad patrimonial debe realizar la neutralización controlada con cal apagada del charco ácido en la batea del tanque TK-05 y registrar la disposición en libro de actas.",
+    "Recepcionar el camión cisterna de gas licuado proveniente de la ciudad de Salta para recargar los depósitos de calefacción de los módulos habitacionales del campamento."
+  ],
+  "Riesgos_Reportados": [
+    "Derrame de ácido clorhídrico concentrado en la bandeja de contención secundaria del tanque pulmón TK-05 con presencia de vapores ácidos irritantes en el ambiente.",
+    "Helada severa con temperaturas de catorce grados bajo cero en plataforma de pozos y capas de hielo negro sobre pasarelas metálicas y plataformas elevadas de espesadores (riesgo de caída en altura).",
+    "Riesgo de deshidratación extrema y fatiga por hipoxia a tres mil novecientos metros de altura para operadores que trabajen en piletas periféricas sin radio VHF."
+  ],
+  "Maquinaria_Afectada": [
+    "Bomba centrífuga sumergible B-103 (campo de pozos de salmuera): corte imprevisto por sobrecarga eléctrica en variador de frecuencia y alarma de alta temperatura en bobinados.",
+    "Válvula automática neumática V-42 (planta de adsorción directa): trabada en posición semiabierta por cristalización de sales en el vástago.",
+    "Autoelevador todo terreno Manitou número tres (galpón de reactivos): pinchadura en rueda trasera izquierda y rotura de manguera de elevación hidráulica."
+  ]
+}
+
