@@ -1,27 +1,13 @@
 import os
-from gtts import gTTS
+from generador_audio.generador import generar_audio_desde_texto
 
 
 CARPETA_TEXTOS = "textos_reuniones"
 CARPETA_AUDIOS = "audios_reuniones"
 
-def generar_audio_desde_texto(ruta_texto, ruta_audio_salida):
-    """
-    Lee un archivo de texto y lo convierte a audio MP3 utilizando gTTS.
-    """
-    print(f"\nLeyendo archivo: {ruta_texto}")
-    with open(ruta_texto, "r", encoding="utf-8") as f:
-        contenido = f.read()
-
-    print(f"Generando audio sintético con voz en español...")
-    # Configuracion en español
-    tts = gTTS(text=contenido, lang="es", tld="com.ar")
-    
-    tts.save(ruta_audio_salida)
-    print(f"-> Audio guardado exitosamente en: {ruta_audio_salida}")
 
 def main():
-    print(" GENERADOR DE AUDIOS SINTÉTICOS DE REUNIONES DE TURNO (PUNA DE SALTA)")
+    print(" Generador de audios sintéticos")
 
     if not os.path.exists(CARPETA_AUDIOS):
         os.makedirs(CARPETA_AUDIOS)
@@ -40,10 +26,10 @@ def main():
         if os.path.exists(ruta_txt):
             generar_audio_desde_texto(ruta_txt, ruta_mp3)
         else:
-            print(f"Aviso: No se encontró el archivo {ruta_txt}")
+            print(f"No se encontró el archivo {ruta_txt}")
 
-    print("Los 3 audios fueron generados.")
+    print("Los audios fueron generados exitosamente.")
+
 
 if __name__ == "__main__":
     main()
-

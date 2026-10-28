@@ -62,6 +62,13 @@ El flujo de trabajo se divide en dos fases:
 resumen-reuniones/
 │
 ├── entorno-reuniones/            # Entorno virtual con todas las dependencias
+│
+├── funciones_procesamiento/      # Carpeta con las funciones del archivo principal
+│   └── procesador.py             # Lógica de Whisper, LLM y parseo JSON
+│
+├── generador_audio/              # Carpeta para síntesis de voz
+│   └── generador.py              # Función para crear MP3 desde texto con gTTS
+│
 ├── textos_reuniones/             # Guiones base sobre minería en Salta
 │   ├── turno_1_mina_lindero.txt
 │   ├── turno_2_salar_rincon.txt
@@ -84,10 +91,10 @@ resumen-reuniones/
 │   ├── turno_1_mina_lindero.json
 │   └── ...
 │
-├── crear_audios_sinteticos.py    # Generador de audios sintéticos con gTTS
-├── procesar_reuniones.py         # Script principal (Whisper + Phi-4 local)
+├── crear_audios_sinteticos.py    # Script ejecutable para generar los audios
+├── procesar_reuniones.py         # Script ejecutable principal 
 ├── requirements.txt              # Dependencias del proyecto
-└── README.md                     # Documentación del proyecto
+└── README.md                     
 ```
 
 ---

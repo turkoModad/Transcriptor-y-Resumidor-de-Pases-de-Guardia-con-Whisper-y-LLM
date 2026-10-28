@@ -1,0 +1,20 @@
+{
+    "Tareas_Pendientes": [
+        "Reemplazar los seis rodillos guía averiados en la cinta transportadora número 6",
+        "Calibrar la tensión de lavanda en la cinta transportadora número 6",
+        "Purgar el circuito de combustible del generador Caterpillar número 2",
+        "Colocar la junta selladora nueva en el generador Caterpillar número 2",
+        "Solicitar una nueva estación portátil lavaojos para el depósito de reactivos químicos",
+        "Inspeccionar los 10 vagones Tolva con cal hidratada y planificar su descarga secuencial"
+    ],
+    "Riesgos_Reportados": [
+        "Banco de niebla muy denso y baja presión barométrica en la bajada del Abra de Muñano",
+        "Zumbido anómalo y recalentamiento térmico en el seccionador número 2",
+        "Rotura del precinto de la ducha de emergencia y lavaojos número 5"
+    ],
+    "Maquinaria_Afectada": [
+        "Generador Caterpillar número 2 con oscilaciones bruscas en la frecuencia eléctrica y fuga de combustible",
+        "Cinta transportadora número 6 con accionamiento del sensor de desalineamiento lateral",
+        "Pala cargadora Volvo L250 con rotura en el latiguillo del cilindro de volteo del balde"
+    ]
+}
